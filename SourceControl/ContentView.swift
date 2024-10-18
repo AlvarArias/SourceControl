@@ -24,9 +24,14 @@ struct ContentView: View {
                 
                 clickButton()
                 
+            }.padding()
+            
+            Button("Hit me!") {
+                
+                clickButton()
+                
             }
-            
-            
+            .padding()
         }
         .padding()
     }
