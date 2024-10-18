@@ -21,13 +21,20 @@ struct ContentView: View {
                 .padding()
             
             Button("Hit me!") {
-                print("Button pressed!")
+                
+                clickButton()
+                
             }
             
             
         }
         .padding()
     }
+    
+    func clickButton() {
+        print("Button pressed!")
+    }
+    
 }
 
 #Preview {
