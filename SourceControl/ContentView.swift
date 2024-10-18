@@ -17,6 +17,7 @@ struct ContentView: View {
                 .padding()
             
             Text("Hello, world!")
+                .font(.headline)
                 .padding()
             
             Button("Hit me!") {
